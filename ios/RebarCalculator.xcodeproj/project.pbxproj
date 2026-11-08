@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000000000000000000000002 /* RebarCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000001 /* RebarCalculatorApp.swift */; };
+		000000000000000000000004 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000003 /* Config.swift */; };
+		000000000000000000000006 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000005 /* Theme.swift */; };
+		000000000000000000000008 /* CalculationInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000007 /* CalculationInput.swift */; };
+		00000000000000000000000A /* StandardResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000009 /* StandardResult.swift */; };
+		00000000000000000000000C /* ChartRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000B /* ChartRepository.swift */; };
+		00000000000000000000000E /* RebarWeightRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000D /* RebarWeightRepository.swift */; };
+		000000000000000000000010 /* CalculationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000F /* CalculationEngine.swift */; };
+		000000000000000000000012 /* APIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000011 /* APIModels.swift */; };
+		000000000000000000000014 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000013 /* SessionStore.swift */; };
+		000000000000000000000016 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000015 /* APIClient.swift */; };
+		000000000000000000000018 /* SessionMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000017 /* SessionMonitor.swift */; };
+		00000000000000000000001A /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000019 /* AppState.swift */; };
+		00000000000000000000001C /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000001B /* RootView.swift */; };
+		00000000000000000000001E /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000001D /* AuthView.swift */; };
+		000000000000000000000020 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000001F /* RegisterView.swift */; };
+		000000000000000000000022 /* ResultsTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000021 /* ResultsTable.swift */; };
+		000000000000000000000024 /* TheoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000023 /* TheoryView.swift */; };
+		000000000000000000000026 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000025 /* CalculatorView.swift */; };
+		000000000000000000000028 /* NoteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000027 /* NoteListView.swift */; };
+		00000000000000000000002A /* NoteEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000029 /* NoteEditorView.swift */; };
+		00000000000000000000002C /* RichTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000002B /* RichTextEditor.swift */; };
+		000000000000000000000035 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000034 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		000000000000000000000001 /* RebarCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RebarCalculatorApp.swift; sourceTree = "<group>"; };
+		000000000000000000000003 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		000000000000000000000005 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		000000000000000000000007 /* CalculationInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationInput.swift; sourceTree = "<group>"; };
+		000000000000000000000009 /* StandardResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardResult.swift; sourceTree = "<group>"; };
+		00000000000000000000000B /* ChartRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartRepository.swift; sourceTree = "<group>"; };
+		00000000000000000000000D /* RebarWeightRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RebarWeightRepository.swift; sourceTree = "<group>"; };
+		00000000000000000000000F /* CalculationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationEngine.swift; sourceTree = "<group>"; };
+		000000000000000000000011 /* APIModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModels.swift; sourceTree = "<group>"; };
+		000000000000000000000013 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		000000000000000000000015 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		000000000000000000000017 /* SessionMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionMonitor.swift; sourceTree = "<group>"; };
+		000000000000000000000019 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		00000000000000000000001B /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		00000000000000000000001D /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		00000000000000000000001F /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		000000000000000000000021 /* ResultsTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTable.swift; sourceTree = "<group>"; };
+		000000000000000000000023 /* TheoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheoryView.swift; sourceTree = "<group>"; };
+		000000000000000000000025 /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		000000000000000000000027 /* NoteListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListView.swift; sourceTree = "<group>"; };
+		000000000000000000000029 /* NoteEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEditorView.swift; sourceTree = "<group>"; };
+		00000000000000000000002B /* RichTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichTextEditor.swift; sourceTree = "<group>"; };
+		000000000000000000000034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		000000000000000000000036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		000000000000000000000037 /* RebarCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RebarCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00000000000000000000003B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00000000000000000000002D = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000002F /* RebarCalculator */,
+				00000000000000000000002E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00000000000000000000002F /* RebarCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000001 /* RebarCalculatorApp.swift */,
+				000000000000000000000003 /* Config.swift */,
+				000000000000000000000030 /* Support */,
+				000000000000000000000031 /* Domain */,
+				000000000000000000000032 /* Network */,
+				000000000000000000000033 /* Views */,
+				000000000000000000000034 /* Assets.xcassets */,
+				000000000000000000000036 /* Info.plist */,
+			);
+			path = RebarCalculator;
+			sourceTree = "<group>";
+		};
+		000000000000000000000030 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000005 /* Theme.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		000000000000000000000031 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000007 /* CalculationInput.swift */,
+				000000000000000000000009 /* StandardResult.swift */,
+				00000000000000000000000B /* ChartRepository.swift */,
+				00000000000000000000000D /* RebarWeightRepository.swift */,
+				00000000000000000000000F /* CalculationEngine.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		000000000000000000000032 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000011 /* APIModels.swift */,
+				000000000000000000000013 /* SessionStore.swift */,
+				000000000000000000000015 /* APIClient.swift */,
+				000000000000000000000017 /* SessionMonitor.swift */,
+				000000000000000000000019 /* AppState.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		000000000000000000000033 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000001B /* RootView.swift */,
+				00000000000000000000001D /* AuthView.swift */,
+				00000000000000000000001F /* RegisterView.swift */,
+				000000000000000000000021 /* ResultsTable.swift */,
+				000000000000000000000023 /* TheoryView.swift */,
+				000000000000000000000025 /* CalculatorView.swift */,
+				000000000000000000000027 /* NoteListView.swift */,
+				000000000000000000000029 /* NoteEditorView.swift */,
+				00000000000000000000002B /* RichTextEditor.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		00000000000000000000002E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000037 /* RebarCalculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000000000000000000000038 /* RebarCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00000000000000000000003E /* Build configuration list for PBXNativeTarget "RebarCalculator" */;
+			buildPhases = (
+				00000000000000000000003A /* Sources */,
+				00000000000000000000003B /* Frameworks */,
+				00000000000000000000003C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RebarCalculator;
+			productName = RebarCalculator;
+			productReference = 000000000000000000000037 /* RebarCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000000000000000000000039 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					000000000000000000000038 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 00000000000000000000003D /* Build configuration list for PBXProject "RebarCalculator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 00000000000000000000002D;
+			productRefGroup = 00000000000000000000002E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000000000000000000000038 /* RebarCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00000000000000000000003C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000000035 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00000000000000000000003A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000000002 /* RebarCalculatorApp.swift in Sources */,
+				000000000000000000000004 /* Config.swift in Sources */,
+				000000000000000000000006 /* Theme.swift in Sources */,
+				000000000000000000000008 /* CalculationInput.swift in Sources */,
+				00000000000000000000000A /* StandardResult.swift in Sources */,
+				00000000000000000000000C /* ChartRepository.swift in Sources */,
+				00000000000000000000000E /* RebarWeightRepository.swift in Sources */,
+				000000000000000000000010 /* CalculationEngine.swift in Sources */,
+				000000000000000000000012 /* APIModels.swift in Sources */,
+				000000000000000000000014 /* SessionStore.swift in Sources */,
+				000000000000000000000016 /* APIClient.swift in Sources */,
+				000000000000000000000018 /* SessionMonitor.swift in Sources */,
+				00000000000000000000001A /* AppState.swift in Sources */,
+				00000000000000000000001C /* RootView.swift in Sources */,
+				00000000000000000000001E /* AuthView.swift in Sources */,
+				000000000000000000000020 /* RegisterView.swift in Sources */,
+				000000000000000000000022 /* ResultsTable.swift in Sources */,
+				000000000000000000000024 /* TheoryView.swift in Sources */,
+				000000000000000000000026 /* CalculatorView.swift in Sources */,
+				000000000000000000000028 /* NoteListView.swift in Sources */,
+				00000000000000000000002A /* NoteEditorView.swift in Sources */,
+				00000000000000000000002C /* RichTextEditor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		00000000000000000000003F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		000000000000000000000040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		000000000000000000000041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 11;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = RebarCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rebar.calculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		000000000000000000000042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 11;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = RebarCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rebar.calculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00000000000000000000003D /* Build configuration list for PBXProject "RebarCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00000000000000000000003F /* Debug */,
+				000000000000000000000040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00000000000000000000003E /* Build configuration list for PBXNativeTarget "RebarCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000000000041 /* Debug */,
+				000000000000000000000042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 000000000000000000000039 /* Project object */;
+}
